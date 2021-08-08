@@ -1,0 +1,147 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Fredoka+One&display=swap');
+
+/* GENERAL BODY ADJUSTMENTS */
+
+body {
+    margin: 0;
+}
+
+/* NAV */
+
+nav {
+    background-color: #1a1919;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    color: white;
+    list-style: none;
+    width: 100%;
+}
+
+.push {
+    display: flex;
+    margin-left: auto;
+}
+
+li {
+    margin: 0px 20px;
+    color: white;
+    font-size: .9em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.contactMe {
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* COVER */
+
+.cover {
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-content {
+    height: 100%;
+    width: 48%;
+    display: flex;
+    border-bottom: 2px gray solid;
+}
+
+.pic-div {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-text {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courgette', cursive;
+    letter-spacing: 1px;
+}
+
+.circular {
+    border-radius: 50%;
+    width: auto;
+    height: 250px;
+}
+
+/* MOCK PROJECTS */
+
+.mock-projects-body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.mock-websites {
+    width: 48%;
+}
+
+.mock-website-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Mikes-BBQ-Restaurant {
+    display: flex;
+}
+
+.text-and-links {
+    width: 62%;
+}
+
+.Mikes-BBQ-Pic {
+    width: 32%;
+}
+
+.source-links {
+    color: blue;
+}
+
+/* JAVASCRIPT PROJECTS */
+
+.javascript-projects {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.javascript-projects-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WeatherAPI-Finder {
+    display: flex;
+}
