@@ -145,11 +145,3 @@ a {
 .WeatherAPI-Finder {
     display: flex;
 }
-
-/* Contact Me page */
-
-.contact-me-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
