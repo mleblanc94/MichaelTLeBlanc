@@ -7,7 +7,52 @@ body {
 }
 
 .contact-me-div {
-    width: 500px;
-    height: 300px;
+    width: 700px;
+    height: 500px;
     background: gray;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+
+/* NAV */
+
+nav {
+    background-color: #1a1919;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    color: white;
+    list-style: none;
+    width: 100%;
+}
+
+.push {
+    display: flex;
+    margin-left: auto;
+}
+
+li {
+    margin: 0px 20px;
+    color: white;
+    font-size: .9em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.contactMe {
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
