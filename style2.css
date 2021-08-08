@@ -4,6 +4,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url(motherboard.png) no-repeat;
+    background-size: cover;
 }
 
 .contact-me-div {
@@ -13,7 +15,8 @@ body {
     border: 3px solid black;
     border-radius: 30px;
     color: white;
-    box-shadow: ;
+    box-shadow: 5px 5px 5px black;
+    text-align: center;
 }
 
 /* NAV */
