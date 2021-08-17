@@ -44,6 +44,11 @@ a {
     border-radius: 20px;
 }
 
+.contactMe:hover {
+    background: white;
+    color: #1a1919;
+}
+
 .sticky {
     position: fixed;
     top: 0;
@@ -58,13 +63,22 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 85px;
 }
 
 .cover-content {
     height: 100%;
     width: 48%;
     display: flex;
-    border-bottom: 2px gray solid;
+    border: 2px gray solid;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px #1a1919;
+    background: #ebe6e6;
+}
+
+.cover-content:hover {
+    transform: scale(1.02);
+    transition: 1s;
 }
 
 .pic-div {
