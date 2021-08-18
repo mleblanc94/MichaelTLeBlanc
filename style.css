@@ -155,6 +155,8 @@ a {
 
 /* JAVASCRIPT PROJECTS */
 
+/* Weather API Finder */
+
 .javascript-projects {
     width: 100%;
     display: flex;
@@ -171,4 +173,11 @@ a {
 
 .WeatherAPI-Finder {
     display: flex;
+}
+
+/* Joke Teller */
+
+.Joke-Teller {
+    display: flex;
+    margin-top: 70px;
 }
