@@ -59,7 +59,7 @@ a {
 
 .cover {
     width: 100%;
-    height: 55vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,38 +70,47 @@ a {
     height: 100%;
     width: 48%;
     display: flex;
+    justify-content: space-between;
     border: 2px gray solid;
     border-radius: 10px;
     box-shadow: 0 0 10px 10px #1a1919;
     background: #ebe6e6;
 }
 
-.cover-content:hover {
-    transform: scale(1.02);
-    transition: 1s;
-}
-
 .pic-div {
-    width: 40%;
+    width: 38%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .cover-text {
-    width: 60%;
+    width: 58%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: 'Courgette', cursive;
     letter-spacing: 1px;
+    margin-top: 6px;
 }
 
 .circular {
     border-radius: 50%;
     width: auto;
     height: 250px;
+}
+
+.socials i {
+    margin: 0px 10px;
+}
+
+.fa-github:hover {
+    color: #7DBBE6;
+}
+
+.fa-linkedin:hover {
+    color: #0e76a8;
 }
 
 /* MOCK PROJECTS */
