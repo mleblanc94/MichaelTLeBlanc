@@ -4,19 +4,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(motherboard.png) no-repeat;
+    background: url(bostonSkyline.webp) no-repeat;
     background-size: cover;
 }
 
 .contact-me-div {
     width: 700px;
     height: 500px;
-    background: gray;
+    background: rgba(130, 127, 128, .93);
     border: 3px solid black;
     border-radius: 30px;
     color: white;
     box-shadow: 5px 5px 5px black;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /* NAV */
