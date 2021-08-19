@@ -136,6 +136,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: underline;
 }
 
 .Mikes-BBQ-Restaurant {
@@ -172,6 +173,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: underline;
 }
 
 .WeatherAPI-Finder {
@@ -247,7 +249,7 @@ a {
 
     .contactMe {
         padding: 2px;
-        font-size: .7rem;
+        font-size: .6rem;
     }
 
     ul li {
@@ -274,8 +276,13 @@ a {
     }
 
     ul li {
-        font-size: .6rem;
-        margin: 0px 1px;
+        font-size: .4rem;
+        margin: 0px 3px;
+    }
+
+    .contactMe {
+        padding: 2px;
+        font-size: .4rem;
     }
 }
 
