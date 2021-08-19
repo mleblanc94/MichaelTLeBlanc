@@ -64,3 +64,29 @@ a {
     top: 0;
     width: 100%;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 800px){
+    .contact-me-div {
+    width: 400px;
+    height: 200px;
+    font-size: .7rem;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .contactMe {
+        padding: 2px;
+        font-size: .7rem;
+    }
+
+    ul li {
+        font-size: .6rem;
+        margin: 0px 4px;
+    }
+
+    #mock-projects-body {
+        font-size: .65rem;;
+    }
+}

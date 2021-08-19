@@ -117,6 +117,89 @@ a {
     color: #0e76a8;
 }
 
+
+/* MOCK PROJECTS */
+
+#mock-projects-body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.mock-websites {
+    width: 48%;
+}
+
+.mock-website-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Mikes-BBQ-Restaurant {
+    display: flex;
+}
+
+.text-and-links {
+    width: 62%;
+}
+
+.Mikes-BBQ-Pic {
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.source-links {
+    color: blue;
+}
+
+/* JAVASCRIPT PROJECTS */
+/* Weather API Finder */
+
+.javascript-projects {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.javascript-projects-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WeatherAPI-Finder {
+    display: flex;
+}
+
+.WeatherAPI-Finder-Pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Joke Teller */
+
+.Joke-Teller {
+    display: flex;
+    margin-top: 70px;
+}
+
+.Joke-Teller-Pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MEDIA QUERIES */
+
+
 @media screen and (max-width: 1480px){
     .circular {
         height: 200px;
@@ -128,6 +211,10 @@ a {
 
     .cover {
         height: 45vh;
+    }
+
+    #mock-projects-body {
+        font-size: .8rem;;
     }
 }
 
@@ -167,6 +254,10 @@ a {
         font-size: .6rem;
         margin: 0px 4px;
     }
+
+    #mock-projects-body {
+        font-size: .65rem;;
+    }
 }
 
 @media screen and (max-width: 685px){
@@ -191,69 +282,4 @@ a {
     .cover-text {
         font-size: .5rem;
     }
-}
-
-/* MOCK PROJECTS */
-
-#mock-projects-body {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-}
-
-.mock-websites {
-    width: 48%;
-}
-
-.mock-website-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.Mikes-BBQ-Restaurant {
-    display: flex;
-}
-
-.text-and-links {
-    width: 62%;
-}
-
-.Mikes-BBQ-Pic {
-    width: 32%;
-}
-
-.source-links {
-    color: blue;
-}
-
-/* JAVASCRIPT PROJECTS */
-
-/* Weather API Finder */
-
-.javascript-projects {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-}
-
-.javascript-projects-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.WeatherAPI-Finder {
-    display: flex;
-}
-
-/* Joke Teller */
-
-.Joke-Teller {
-    display: flex;
-    margin-top: 70px;
 }
