@@ -117,6 +117,86 @@ a {
     color: #0e76a8;
 }
 
+@media screen and (max-width: 1480px){
+    .circular {
+        height: 200px;
+    }
+
+    .cover-text {
+        font-size: .85rem;
+    }
+
+    .cover {
+        height: 45vh;
+    }
+}
+
+@media screen and (max-width: 1230px){
+    .pic-div .circular {
+        height: 150px;
+    }
+
+    .cover {
+        height: 40vh;
+    }
+
+    .cover-text {
+        font-size: .7rem;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .pic-div .circular {
+        height: 120px;
+    }
+
+    .cover {
+        height: 35vh;
+    }
+
+    .cover-text {
+        font-size: .6rem;
+    }
+
+    .contactMe {
+        padding: 2px;
+        font-size: .7rem;
+    }
+
+    ul li {
+        font-size: .6rem;
+        margin: 0px 4px;
+    }
+}
+
+@media screen and (max-width: 685px){
+    .pic-div .circular {
+        height: 95px;
+    }
+
+    .cover {
+        height: 31vh;
+    }
+
+    .cover-text {
+        font-size: .5rem;
+    }
+}
+
+@media screen and (max-width: 565px){
+    .pic-div .circular {
+        height: 75px;
+    }
+
+    .cover {
+        height: 26vh;
+    }
+
+    .cover-text {
+        font-size: .5rem;
+    }
+}
+
 /* MOCK PROJECTS */
 
 #mock-projects-body {
