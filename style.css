@@ -175,7 +175,7 @@ a {
     }
 
     .cover {
-        height: 31vh;
+        height: 35vh;
     }
 
     .cover-text {
@@ -186,10 +186,6 @@ a {
 @media screen and (max-width: 565px){
     .circular {
         height: 75px;
-    }
-
-    .cover {
-        height: 26vh;
     }
 
     .cover-text {
