@@ -132,7 +132,7 @@ a {
 }
 
 @media screen and (max-width: 1230px){
-    .pic-div .circular {
+    .circular {
         height: 150px;
     }
 
@@ -146,7 +146,7 @@ a {
 }
 
 @media screen and (max-width: 850px){
-    .pic-div .circular {
+    .circular {
         height: 120px;
     }
 
@@ -170,7 +170,7 @@ a {
 }
 
 @media screen and (max-width: 685px){
-    .pic-div .circular {
+    .circular {
         height: 95px;
     }
 
@@ -184,7 +184,7 @@ a {
 }
 
 @media screen and (max-width: 565px){
-    .pic-div .circular {
+    .circular {
         height: 75px;
     }
 
