@@ -130,6 +130,10 @@ a {
 
 .mock-websites {
     width: 48%;
+    padding: 10px;
+    border: 2px black solid;
+    border-radius: 20px;
+    background: #ebe6e6;
 }
 
 .mock-website-header {
