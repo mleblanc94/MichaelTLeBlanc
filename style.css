@@ -114,7 +114,7 @@ a {
 /* Typing Effect */
 @keyframes typing {
     from { width: 0 }
-    to { width: 75% }
+    to { width: 63% }
 }
 
 /* Typewriter cursor effect */
@@ -210,6 +210,7 @@ a {
 
 .WeatherAPI-Finder {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .WeatherAPI-Finder-Pic {
@@ -222,6 +223,7 @@ a {
 
 .Joke-Teller {
     display: flex;
+    justify-content: space-evenly;
     margin-top: 70px;
 }
 
