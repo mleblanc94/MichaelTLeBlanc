@@ -69,7 +69,7 @@ a {
 
 .cover-content {
     height: 100%;
-    width: 54%;
+    width: 64%;
     display: flex;
     justify-content: space-between;
     border: 2px gray solid;
@@ -157,7 +157,7 @@ a {
 }
 
 .mock-websites {
-    width: 40%;
+    width: 50%;
     padding: 10px;
     border: 2px black solid;
     border-radius: 20px;
@@ -419,13 +419,13 @@ a {
     }
 }
 
-@media screen and (max-width: 565px){
+@media screen and (max-width: 465px){
     .cover-content {
         width: 65%;
     }
     
     .cover-text h3 {
-        font-size: .40rem;
+        font-size: .25rem;
     }
 
     .cover-text h2 {
