@@ -428,6 +428,7 @@ a {
     
     .cover-text h3 {
         font-size: .25rem;
+        overflow-wrap: break-word;
     }
 
     .cover-text h2 {
