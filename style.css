@@ -235,6 +235,12 @@ a {
 
 /* MEDIA QUERIES */
 
+@media screen and (max-width: 1630px){
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 64% }
+    }
+}
 
 @media screen and (max-width: 1480px){
     .circular {
