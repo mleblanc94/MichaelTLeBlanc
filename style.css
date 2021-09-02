@@ -105,7 +105,7 @@ a {
     border-right: .15em solid black;
     white-space: nowrap;
     margin: 5 auto;
-    font-size: 1.1rem;
+    font-size: .4rem;
     animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
