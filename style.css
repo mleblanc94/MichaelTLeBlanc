@@ -448,7 +448,7 @@ a {
 
 @media screen and (max-width: 400px){
     .cover-content {
-        width: 75%;
+        width: 45%;
     }
     
     .cover-text h3 {
