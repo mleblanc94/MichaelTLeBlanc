@@ -261,7 +261,7 @@ a {
 
     @keyframes typing {
         from { width: 0 }
-        to { width: 93% }
+        to { width: 75% }
     }
 
 }
@@ -285,7 +285,7 @@ a {
 
     @keyframes typing {
         from { width: 0 }
-        to { width: 96% }
+        to { width: 78% }
     }
 }
 
@@ -304,7 +304,7 @@ a {
 
     @keyframes typing {
         from { width: 0 }
-        to { width: 96% }
+        to { width: 74% }
     }
 }
 
@@ -319,7 +319,7 @@ a {
 
     @keyframes typing {
         from { width: 0 }
-        to { width: 96% }
+        to { width: 79% }
     }
 }
 
@@ -342,7 +342,7 @@ a {
 
     @keyframes typing {
         from { width: 0 }
-        to { width: 93% }
+        to { width: 76% }
     }
 
     .contactMe {
@@ -379,7 +379,7 @@ a {
 
     @keyframes typing {
         from { width: 0 }
-        to { width: 96% }
+        to { width: 80% }
     }
 
     ul li {
@@ -404,7 +404,7 @@ a {
 
 @keyframes typing {
     from { width: 0 }
-    to { width: 96% }
+    to { width: 92% }
 }
 }
 
@@ -423,7 +423,7 @@ a {
 
     @keyframes typing {
         from { width: 0 }
-        to { width: 96% }
+        to { width: 78% }
     }
 }
 
@@ -442,7 +442,7 @@ a {
 
     @keyframes typing {
         from { width: 0 }
-        to { width: 100% }
+        to { width: 65% }
     }
 }
 
@@ -452,7 +452,7 @@ a {
     }
     
     .cover-text h3 {
-        font-size: .05rem;
+        font-size: .15rem;
     }
 
     .cover-text h2 {
@@ -461,6 +461,6 @@ a {
 
     @keyframes typing {
         from { width: 0 }
-        to { width: 40% }
+        to { width: 60% }
     }
 }
