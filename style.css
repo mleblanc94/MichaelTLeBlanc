@@ -448,7 +448,7 @@ a {
 
 @media screen and (max-width: 400px){
     .cover-content {
-        width: 45%;
+        width: 85%;
     }
     
     .cover-text h3 {
@@ -462,6 +462,6 @@ a {
 
     @keyframes typing {
         from { width: 0 }
-        to { width: 80% }
+        to { width: 48% }
     }
 }
