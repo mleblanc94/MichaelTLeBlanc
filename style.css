@@ -445,3 +445,22 @@ a {
         to { width: 100% }
     }
 }
+
+@media screen and (max-width: 400px){
+    .cover-content {
+        width: 65%;
+    }
+    
+    .cover-text h3 {
+        font-size: .05rem;
+    }
+
+    .cover-text h2 {
+        font-size: .48rem;
+    }
+
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+    }
+}
