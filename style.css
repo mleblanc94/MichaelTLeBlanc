@@ -433,8 +433,7 @@ a {
     }
     
     .cover-text h3 {
-        font-size: .25rem;
-        overflow-wrap: break-word;
+        font-size: .15rem;
     }
 
     .cover-text h2 {
