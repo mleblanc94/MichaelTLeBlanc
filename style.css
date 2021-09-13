@@ -173,6 +173,7 @@ a {
 
 .Mikes-BBQ-Restaurant {
     display: flex;
+    justify-content: space-between;
 }
 
 .text-and-links {
@@ -465,3 +466,4 @@ a {
         to { width: 48% }
     }
 }
+
